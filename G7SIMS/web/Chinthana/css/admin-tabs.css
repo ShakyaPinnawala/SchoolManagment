@@ -1,0 +1,41 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab a {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: #fff;
+  color: #2e59d9 !important;
+  font-weight: bold !important;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+}
+
+.custom-dropdown-menu {
+    min-width: 400px; /* Adjust the width as needed */
+}
+
+
+
+
+
+
